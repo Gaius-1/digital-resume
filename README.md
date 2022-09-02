@@ -1,6 +1,6 @@
 # **A full-fledged website to showcase my works.**
 
-## A sneak peek into what we have here🙈 :
+<!-- ## A sneak peek into what we have here🙈 :
 
 ### Home Page:
 
@@ -20,4 +20,4 @@
 
 ### Education Page:
 
-<p align="center"><img src="./readme_assets/Education_Page.gif"></p>
+<p align="center"><img src="./readme_assets/Education_Page.gif"></p> -->
