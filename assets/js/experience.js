@@ -19,11 +19,11 @@ const exp = [
     desp: "<li>Built a responsive E-commerce website to showcase all kitchenware products.</li><li>Utilized Paystack API to securely handle payments.</li><li>Designed an admin page to monitor activities, purchases and traffic.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Freelancer, Contract",
+    cardImage: "assets/images/experience-page/phonto_1.jpg",
+    place: "Addo Grand Construction, Kasoa",
+    time: "In progress",
+    desp: "<li>Build a Responsive company website for a construction firm</li><li>Implement the functionality to showcase their projects they've embarked on.</li><li>Display Building tools and materials available for rent</li><li>Include a functionality to gain realtime prices of all building materials e.g, Cement,...</li>",
   },
 ];
 
@@ -62,30 +62,12 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "FutureLabs AceCode X, <i>June 2022</i>",
+    cardImage: "assets/images/experience-page/AceCode_X.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for teaching kids at Little Flower Montessori School the rudiments of Programming.",
   },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-];
+]
 
 const showCards = () => {
   let output = "";
@@ -94,7 +76,7 @@ const showCards = () => {
       (output += `        
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
       
-      <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
+      <img src="${cardImage}" height="230" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
